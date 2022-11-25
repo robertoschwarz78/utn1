@@ -1,0 +1,17 @@
+
+body {background-color: #500;}
+
+h4 {background-color: #999;
+padding: 4px}
+
+.card {
+        max-width: 260px;
+        padding: 5px;
+        margin: 5px;
+        background-color: #ddd;
+    }
+
+.card-text1 {color: #b00; font-size: 20px;}
+
+.card-text2 {color: #333; font-size: 16px;}
+
