@@ -10,84 +10,174 @@
 <body>
 
     <!-- esto lo copio en los 3 archivos -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./imagenes/logo.jpg" alt="Bootstrap" width="28" height="28">NAV Bar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./info.html">Info</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="./imagenes/logo.jpg" alt="Bootstrap" width="28" height="28"><span id="logo"> NAV</span> Bar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./info.html">Info</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
 <!-- cards con el menu -->
 
+<!-- <h4>
+  Tentate con nuestras opciones
+</h4> -->
 
-<h4>
-  Tentate con nuestras opciones.
-</h4>
+<div class="divisor text-center">
+  <p>COMIDAS</p>
+</div>
 
-<div class="container">
-  <div class="row">
+<div class="row">
 
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
-      <div class="card" style="width: 18rem;">
-        <img src="./imagenes/coca.jpg" class="card-img-top" alt="foto vaso coca">
-        <div class="card-body">
-          <h5 class="card-text">Gaseosa Cola</h5>
-          <p class="card-text1">En un vaso de 300 cc</p>
-          <p class="card-text2">normal, sin azucar o light</p>
-        </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/hamb.jpg" class="card-img-top" alt="foto hamburguesa">
+      <div class="card-body">
+        <p class="card-text0">Hamburguesa</h5>
+        <p class="card-text1">Completa</p>
+        <p class="card-text2">Lechuga, tomate, queso</p>
       </div>
     </div>
+  </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
-      <div class="card" style="width: 18rem;">
-        <img src="./imagenes/hamb.jpg" class="card-img-top" alt="foto vaso coca">
-        <div class="card-body">
-          <h5 class="card-text">Hamburguesa</h5>
-          <p class="card-text1">Completa</p>
-          <p class="card-text2">lechuga, tomate, queso</p>
-        </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/bife.jpg" class="card-img-top" alt="foto bife">
+      <div class="card-body">
+        <p class="card-text0">Bife</h5>
+        <p class="card-text1">Con papas fritas</p>
+        <p class="card-text2">Pedilo cocido o jugoso</p>
       </div>
     </div>
+  </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
-      <div class="card" style="width: 18rem;">
-        <img src="./imagenes/pancho.jpg" class="card-img-top" alt="foto vaso coca">
-        <div class="card-body">
-          <h5 class="card-text">2 Panchos</h5>
-          <p class="card-text1">Porque uno no alcanza</p>
-          <p class="card-text2">Adheresos a elección</p>
-        </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/pancho.jpg" class="card-img-top" alt="foto pancho">
+      <div class="card-body">
+        <p class="card-text0">2 Panchos</h5>
+        <p class="card-text1">Porque uno no alcanza</p>
+        <p class="card-text2">Aderezos a elección</p>
       </div>
     </div>
+  </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
-      <div class="card" style="width: 18rem;">
-        <img src="./imagenes/ensalada.jpg" class="card-img-top" alt="foto vaso coca">
-        <div class="card-body">
-          <h5 class="card-text">Ensalada</h5>
-          <p class="card-text1">Fresca para el verano</p>
-          <p class="card-text2">tomate, lechuga, cebolla morada</p>
-        </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/picada.jpg" class="card-img-top" alt="foto picada">
+      <div class="card-body">
+        <p class="card-text0">Picada</h5>
+        <p class="card-text1">Para compartir</p>
+        <p class="card-text2">Fiambres y quesos</p>
       </div>
     </div>
+  </div>
 
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/tostado.jpg" class="card-img-top" alt="foto tostado">
+      <div class="card-body">
+        <p class="card-text0">Tostado</h5>
+        <p class="card-text1">Triple de miga</p>
+        <p class="card-text2">Jamon y queso</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/ensalada.jpg" class="card-img-top" alt="foto ensalada">
+      <div class="card-body">
+        <p class="card-text0">Ensalada</h5>
+        <p class="card-text1">Fresca para el verano</p>
+        <p class="card-text2">Tomate, lechuga, cebolla</p>
+      </div>
+    </div>
   </div>
 </div>
+
+<div class="divisor text-center">
+  <p>BEBIDAS</p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/coca.jpg" class="card-img-top" alt="foto vaso coca">
+      <div class="card-body">
+        <p class="card-text0">Gaseosa Cola</h5>
+        <p class="card-text1">En un vaso de 300 cc</p>
+        <p class="card-text2">normal, sin azucar o light</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 centered" >
+    <div class="card">
+      <img src="./imagenes/agua.jpg" class="card-img-top" alt="foto vaso agua">
+      <div class="card-body">
+        <p class="card-text0">Agua</h5>
+        <p class="card-text1">Botellita 500 cc</p>
+        <p class="card-text2">con o sin gas</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 centered" >
+    <div class="card">
+      <img src="./imagenes/birra.jpg" class="card-img-top" alt="foto vasos cerveza">
+      <div class="card-body">
+        <p class="card-text0">Cerveza</h5>
+        <p class="card-text1">Media pinta</p>
+        <p class="card-text2">rubia o roja</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divisor text-center">
+  <p>POSTRES</p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" >
+    <div class="card">
+      <img src="./imagenes/flan.jpg" class="card-img-top" alt="foto flan">
+      <div class="card-body">
+        <p class="card-text0">Flan</h5>
+        <p class="card-text1">Con dulce de leche</p>
+        <p class="card-text2">esponjoso y rico</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 centered" >
+    <div class="card">
+      <img src="./imagenes/frutas.jpg" class="card-img-top" alt="foto frutas">
+      <div class="card-body">
+        <p class="card-text0">Ensalada de frutas</h5>
+        <p class="card-text1">Con frutas de estación</p>
+        <p class="card-text2">con o sin crema</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

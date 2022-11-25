@@ -10,44 +10,45 @@
 <body>
 
     <!-- esto lo copio en los 3 archivos -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./imagenes/logo.jpg" alt="Bootstrap" width="28" height="28">NAV Bar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="./menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./info.html">Info</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="./imagenes/logo.jpg" alt="Bootstrap" width="28" height="28"><span id="logo"> NAV</span> Bar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./info.html">Info</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
 <!-- acerca de -->
 
 
-<h4>
-  Acerca del bar
-</h4>
+<div class="container mapa">
 
+  <h3>
+    Donde encontrarnos
+  </h3>
+  <img src="./imagenes/plano.jpg" class="responsive" alt="plano ubicacion">
 
-<div class="container">
-  <p>
-    bla bla bla
-  </p>
+  <h3>
+    Nuestros horarios
+  </h3>
+  <p>Lunes a Viernes: 10:00 a 22:00</p>
+  <p>Sabados: 10:00 a 13:00</p>
+
 </div>
-
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -10,16 +10,16 @@
 <body>
 
     <!-- esto lo copio en los 3 archivos -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./imagenes/logo.jpg" alt="Bootstrap" width="28" height="28">NAV Bar</a>
+          <a class="navbar-brand"><img src="./imagenes/logo.jpg" alt="Bootstrap" width="28" height="28"><span id="logo"> NAV</span> Bar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link active" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./menu.html">Menu</a>
@@ -34,36 +34,54 @@
 
 <!-- pagina principal -->
 
-<h4>
+<!-- <h4>
   Un espacio con wifi y enchufes para que puedas estar conectado.
-</h4>
+</h4> -->
 
-<p>
-  Arriba en la barra del navegador podes mirar el menú y elegir los platos.
-</p>
+<div class="container portada">
+<h3>
+  Bienvenido al mejor bar de la cuadra.
+</h3>
 
+<p>Un espacio con wifi y enchufes para que puedas seguir conectado.</p>
 
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
-      <img src="./imagenes/hamb.jpg" class="d-block w-100" alt="foto de una hamburguesa">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./imagenes/hamb.jpg" class="d-block w-100" alt="foto de una hamburguesa">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagenes/coca.jpg" class="d-block w-100" alt="foto vaso coca">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagenes/pancho.jpg" class="d-block w-100" alt="foto de un pancho">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagenes/birra.jpg" class="d-block w-100" alt="foto cerveza">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagenes/ensalada.jpg" class="d-block w-100" alt="foto de una ensadala">
+      </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="./imagenes/pancho.jpg" class="d-block w-100" alt="foto de un pancho">
-    </div>
-    <div class="carousel-item">
-      <img src="./imagenes/ensalada.jpg" class="d-block w-100" alt="foto de una ensadala">
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <p>
+    Arriba en la barra del navegador podes mirar el menú y elegir los platos.
+  </p>
+  
 </div>
+
 
 
 
