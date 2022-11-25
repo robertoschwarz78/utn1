@@ -12,7 +12,8 @@ document.getElementById("precioEnsa").innerText="$ 800"
 
 document.getElementById("precioCoca").innerText="$ 300"
 document.getElementById("precioAgua").innerText="$ 200"
-document.getElementById("precioCerv").innerText="$ 500"
+//document.getElementById("precioCerv").innerText="$ 500"
+//si me olvido de cargar algo queda el valor por defecto "consultar"
 
 document.getElementById("precioFlan").innerText="$ 500"
 document.getElementById("precioFrut").innerText="no disponible"
